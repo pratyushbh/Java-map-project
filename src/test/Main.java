@@ -39,7 +39,6 @@ public class Main extends javax.swing.JFrame {
         jXMapViewer.addMouseWheelListener(new ZoomMouseWheelListenerCenter(jXMapViewer));
         event = getEvent();
     }
-    @SuppressWarnings("unchecked")
     private void initComponents() {
 
         jXMapViewer = new org.jxmapviewer.JXMapViewer();
